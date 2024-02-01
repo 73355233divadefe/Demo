@@ -15,5 +15,5 @@ client.send(b"GET / HTTP/1.1\r\nHost: arielahomecare.co.uk\r\n\r\n")
 #receive some date
 response = client.recv(4096)
 
-    print(response.decode())
-    client.close()
+print(response.decode())
+client.close()
